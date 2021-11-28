@@ -24,7 +24,7 @@
           <div class="media">
             <div class="media-body">
               <h2>Latest Mars News</h2>
-              <h4 class="media-heading">{{ mars.news_title }}</h4>
+              <h4 class="media-heading text-danger"><strong>{{ mars.news_title }}</strong></h4>
               <p>{{ mars.news_paragraph }}</p>
             </div>
           </div>
@@ -43,7 +43,7 @@
         <div class=".col-xs-6 .col-sm-4">
           <!-- Mars Facts -->
             <div class="row" id="mars-facts">
-              <h4>Mars Facts</h4>
+              <h4><strong>Mars Facts</strong></h4>
               {{ mars.facts | safe }}
             </div>
               <div class="row" id="mars-hemispheres">
